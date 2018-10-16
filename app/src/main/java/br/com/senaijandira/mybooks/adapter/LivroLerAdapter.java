@@ -60,6 +60,7 @@ public class LivroLerAdapter extends ArrayAdapter<LivroLer> {
 
     }
 
+
     public void menuPopup(final View v, final LivroLer livro, final int position){
 
         final PopupMenu popupMenu = new PopupMenu(v.getContext(), v);
@@ -72,9 +73,6 @@ public class LivroLerAdapter extends ArrayAdapter<LivroLer> {
                 if(item.getItemId() == R.id.menulivrosLidos){
                     livrosLidos(livro);
                 }
-                else if(item.getItemId() == R.id.menuEditar){
-
-                }
                 else if(item.getItemId() == R.id.menuExcluir){
                     deletarLivro(livro);
                 }
@@ -85,6 +83,8 @@ public class LivroLerAdapter extends ArrayAdapter<LivroLer> {
 
         popupMenu.show();
     }
+
+
 
     @NonNull
     public View getView(final int position, @Nullable View convertView, @NonNull ViewGroup parent){

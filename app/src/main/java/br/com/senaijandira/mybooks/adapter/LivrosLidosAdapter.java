@@ -53,9 +53,7 @@ public class LivrosLidosAdapter extends ArrayAdapter<LivroLido>{
         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-                if(item.getItemId() == R.id.menuEditar){
-
-                }else if(item.getItemId() == R.id.menuExcluir){
+                if(item.getItemId() == R.id.menuExcluir){
                     deletarLivro(livro);
                 }
 
