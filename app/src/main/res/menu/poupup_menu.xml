@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menulivrosLidos"
+        android:title="Enviar para Lidos" />
+    <item
+        android:id ="@+id/menuMeusLivros"
+        android:title = "Enviar para Ler" />
+    <item
+        android:id ="@+id/menuEditar"
+        android:title ="Editar"
+        />
+    <item
+        android:id ="@+id/menuExcluir"
+        android:title ="Excluir" />
+</menu>
